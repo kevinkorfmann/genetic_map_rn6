@@ -68,7 +68,7 @@ new_entries = pd.DataFrame([
 df = pd.concat([df, new_entries], ignore_index=True)
 
 print(df.tail())
-output_dir = "Littrell2018rn6"
+output_dir = "Littrell2018_rn6"
 os.makedirs(output_dir, exist_ok=True)
 
 for chrom in df['Chromosome'].unique():
